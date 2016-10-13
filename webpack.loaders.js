@@ -16,7 +16,7 @@ module.exports = [
 	{
 		test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
 		exclude: /(node_modules|bower_components)/,
-		loader: "file"
+		loader: "url?limit=100000"
 	},
 	{
 		test: /\.(woff|woff2)$/,
@@ -46,6 +46,7 @@ module.exports = [
 	{
 		test: /\.png/,
 		exclude: /(node_modules|bower_components)/,
-		loader: "url-loader?limit=10000&mimetype=image/png"
+		loader: 'file'
+		// loader: "url?limit=10000&mimetype=image/png"
 	}
 ];

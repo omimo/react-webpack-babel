@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-babel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Webpack Babel Starter Kit",
   "main": "''",
   "scripts": {
@@ -10,13 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": ""
   },
-  "author": "Ali Al Dallal",
+  "author": "Omid Alemi",
   "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.3",
     "node-sass": "^3.9.2",
     "react": "15.3.0",
     "react-dom": "15.3.0",

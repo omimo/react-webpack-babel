@@ -1,9 +1,6 @@
 # react-webpack-babel
 Simple React Webpack Babel Starter Kit
 
-Tired of complicated starters with 200MB of dependencies which are hard to understand and modify?
-
-Try this is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with nothing else in it.
 
 ### What's in it?
 
@@ -81,6 +78,10 @@ To do the actual linting, run:
 ### Notes on importing css styles
 * styles having /src/ in their absolute path are considered part of the application and exported as local css modules.
 * styles having /node_modules|global/ in their absolute path are considered global styles used by many components and are included in the css bundle directly.
+
+### Credits
+
+Forked from [https://github.com/alicoding/react-webpack-babel](https://github.com/alicoding/react-webpack-babel)
 
 ### Contribute
 Please contribute to the project if you think this can be done better in anyway even for this README :)
